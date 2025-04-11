@@ -15,20 +15,20 @@ class StressEvents {
             {
                 name: 'child-scream',
                 className: 'child-scream',
-                text: 'DAAAAAAD! I NEED SOMETHING! NOW!',
+                text: 'I WANT TO GO HOME!!',
                 probability: 0.15
             },
             {
                 name: 'bank-alert',
                 className: 'bank-alert',
-                text: 'Bank Alert: Your account balance is -$3.48',
+                text: 'Bank Alert! Saldo: 15 kr',
                 probability: 0.15,
                 soundEvent: 'bankAlert'
             },
             {
                 name: 'coffee-spill',
                 className: 'coffee-spill',
-                text: 'Your coffee spilled on your last clean shirt',
+                text: 'Nu spillde du ut ditt kaffe',
                 probability: 0.15,
                 hasAnimation: true
             },
@@ -42,7 +42,7 @@ class StressEvents {
             {
                 name: 'anxiety-attack',
                 className: 'anxiety-attack',
-                text: 'You feel an anxiety attack coming. Deep breaths. Deep breaths.',
+                text: 'PANIK-ATTACK!!! ANDAS. Andas. andas.',
                 probability: 0.1,
                 hasAnimation: true,
                 soundEvent: 'anxietyAttack'
